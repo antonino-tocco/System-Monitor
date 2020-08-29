@@ -52,6 +52,8 @@ std::string Ram(int pid);
 std::string Uid(int pid);
 std::string User(int pid);
 long int UpTime(int pid);
+
+void CleanString_(std::string& value, bool add_underscore);
 };  // namespace LinuxParser
 
 #endif
