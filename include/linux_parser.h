@@ -54,6 +54,7 @@ std::string User(int pid);
 long int UpTime(int pid);
 
 void CleanString_(std::string& value, bool add_underscore);
+long SystemStartTime();
 };  // namespace LinuxParser
 
 #endif

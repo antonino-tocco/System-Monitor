@@ -94,15 +94,26 @@ float LinuxParser::MemoryUtilization() {
 
 // TODO: Read and return the system uptime
 long LinuxParser::UpTime() {
-  string line;
   long uptime = 0;
+  string line, uptime_string;
   std::ifstream stream(kProcDirectory + kUptimeFilename);
   if (stream.is_open()) {
     std::getline(stream, line);
     std::istringstream linestream(line);
-    linestream >> uptime;
+    linestream >> uptime_string;
+    uptime = stol(uptime_string);
   }
   return uptime;
+}
+
+long LinuxParser::SystemStartTime() {
+  long uptime = 0;
+  time_t current_time = 0;
+  string line, uptime_string;
+  std::ifstream stream(kProcDirectory + kUptimeFilename);
+  uptime = LinuxParser::UpTime();
+  std::time(&current_time);
+  return current_time - uptime;
 }
 
 // TODO: Read and return the number of jiffies for the system
@@ -120,11 +131,11 @@ long LinuxParser::ActiveJiffies(int pid[[maybe_unused]]) {
     std::getline(stream, line);
     CleanString_(line, false);
     std::istringstream linestream(line);
-    vector<long> values(std::istream_iterator<int>(linestream), {});
-    utime = (long ) values[14];
-    stime = (long ) values[15];
-    cutime = (long ) values[16];
-    cstime = (long ) values[17];
+    vector<string> values(std::istream_iterator<string>(linestream), {});
+    utime = stol(values[14]);
+    stime = stol(values[15]);
+    cutime = stol(values[16]);
+    cstime = stol(values[17]);
   }
   return utime + stime + cutime + cstime;
 }
@@ -157,7 +168,7 @@ long LinuxParser::IdleJiffies() {
     CleanString_(line, false);
     line = std::regex_replace(line, std::regex("cpu "), "");
     std::istringstream linestream(line);
-    vector<long> values(std::istream_iterator<int>(linestream), {});
+    vector<long> values(std::istream_iterator<long>(linestream), {});
     idle_time = values[4];
     iowait = values[5];
   }
@@ -187,7 +198,13 @@ int LinuxParser::TotalProcesses() {
 
 // TODO: Read and return the number of running processes
 int LinuxParser::RunningProcesses() {
-  return 0;
+  int counter = 0;
+  for (int pid : LinuxParser::Pids()) {
+    if (LinuxParser::Command(pid).length() > 1) {
+      counter++;
+    }
+  }
+  return counter;
 }
 
 // TODO: Read and return theouble command associated with a process
@@ -264,17 +281,21 @@ string LinuxParser::User(int pid[[maybe_unused]]) {
 // TODO: Read and return the uptime of a process
 // REMOVE: [[maybe_unused]] once you define the function
 long LinuxParser::UpTime(int pid[[maybe_unused]]) {
+  string line;
   std::ifstream stream(kProcDirectory + to_string(pid) + kStatFilename);
   if (stream.is_open()) {
-    string line;
     std::getline(stream, line);
     CleanString_(line, false);
+    line = std::regex_replace(line, std::regex("[0-9] \(.*\) [A-Z] "), "");
     std::istringstream linestream(line);
     vector<string> values(std::istream_iterator<string>(linestream), {});
-    long starttime_ticks = stol(values[22]);
+    long starttime_ticks = stol(values[18]);
+    long system_startup_time = LinuxParser::SystemStartTime();
     long hertz = sysconf(_SC_CLK_TCK);
-    long starttime = starttime_ticks / hertz;
+    double starttime = ((double) starttime_ticks / hertz) + system_startup_time;
+    return starttime;
   }
+  return 0;
 }
 
 void  LinuxParser::CleanString_(string& line, bool add_underscore) {

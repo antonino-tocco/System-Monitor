@@ -22,11 +22,35 @@ numeric
 linux_parser.h
 /home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/linux_parser.h
 
+/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/process.cpp
+iostream
+-
+unistd.h
+-
+cctype
+-
+sstream
+-
+string
+-
+vector
+-
+exception
+-
+process.h
+/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/process.h
+linux_parser.h
+/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/linux_parser.h
+
 include/linux_parser.h
 fstream
 -
 regex
 -
+string
+-
+
+include/process.h
 string
 -
 

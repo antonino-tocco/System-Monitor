@@ -4,6 +4,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <exception>
 
 #include "process.h"
 #include "linux_parser.h"
@@ -13,7 +14,11 @@ using std::to_string;
 using std::vector;
 
 Process::Process(int pid): pid_(pid) {
-  cpu_utilization = (float) LinuxParser::ActiveJiffies(pid) / LinuxParser::Jiffies();
+  try {
+    cpu_utilization = (float) LinuxParser::ActiveJiffies(pid) / LinuxParser::Jiffies();
+  } catch (std::exception& e) {
+    std::cout << "Exception " << e.what();
+  }
 }
 
 // TODO: Return this process's ID
@@ -39,7 +44,10 @@ string Process::User() {
 
 // TODO: Return the age of this process (in seconds)
 long int Process::UpTime() {
-  return LinuxParser::UpTime(this->Pid());
+  long uptime = 0;
+  time_t current_time = 0;
+  uptime = LinuxParser::UpTime(this->Pid());
+  return current_time - uptime;
 }
 
 // TODO: Overload the "less than" comparison operator for Process objects
