@@ -1,4 +1,4 @@
-# Install script for directory: /home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated
+# Install script for directory: /home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

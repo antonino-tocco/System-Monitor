@@ -8,90 +8,106 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated"/>
+				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated"/>
+				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated"/>
+				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="monitor">
-				<Option output="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/monitor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated"/>
+				<Option output="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/monitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/include"/>
+					<Add directory="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 monitor"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 monitor"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="monitor/fast">
-				<Option output="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/monitor" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated"/>
+				<Option output="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/monitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/include"/>
+					<Add directory="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 monitor/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 monitor/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/format.cpp">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/format.cpp">
 			<Option target="monitor"/>
 		</Unit>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/linux_parser.cpp">
 			<Option target="monitor"/>
 		</Unit>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/main.cpp">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/main.cpp">
 			<Option target="monitor"/>
 		</Unit>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/ncurses_display.cpp">
 			<Option target="monitor"/>
 		</Unit>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/process.cpp">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/process.cpp">
 			<Option target="monitor"/>
 		</Unit>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/processor.cpp">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/processor.cpp">
 			<Option target="monitor"/>
 		</Unit>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/system.cpp">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/system.cpp">
 			<Option target="monitor"/>
 		</Unit>
-		<Unit filename="/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeLists.txt">
+		<Unit filename="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

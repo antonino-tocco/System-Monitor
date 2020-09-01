@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp
+/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/linux_parser.cpp
 iostream
 -
 dirent.h
@@ -20,9 +20,9 @@ vector
 numeric
 -
 linux_parser.h
-/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/linux_parser.h
+/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/linux_parser.h
 
-/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/process.cpp
+/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/process.cpp
 iostream
 -
 unistd.h
@@ -38,9 +38,9 @@ vector
 exception
 -
 process.h
-/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/process.h
+/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/process.h
 linux_parser.h
-/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/linux_parser.h
+/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/linux_parser.h
 
 include/linux_parser.h
 fstream

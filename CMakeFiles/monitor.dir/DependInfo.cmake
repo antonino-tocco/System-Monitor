@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/format.cpp" "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeFiles/monitor.dir/src/format.cpp.o"
-  "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp" "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
-  "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/main.cpp" "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeFiles/monitor.dir/src/main.cpp.o"
-  "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp" "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
-  "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/process.cpp" "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeFiles/monitor.dir/src/process.cpp.o"
-  "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/processor.cpp" "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeFiles/monitor.dir/src/processor.cpp.o"
-  "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/src/system.cpp" "/home/kali/Workspace/c++/CppND-System-Monitor-Project-Updated/CMakeFiles/monitor.dir/src/system.cpp.o"
+  "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/format.cpp" "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeFiles/monitor.dir/src/format.cpp.o"
+  "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/linux_parser.cpp" "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
+  "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/main.cpp" "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeFiles/monitor.dir/src/main.cpp.o"
+  "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/ncurses_display.cpp" "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
+  "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/process.cpp" "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeFiles/monitor.dir/src/process.cpp.o"
+  "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/processor.cpp" "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeFiles/monitor.dir/src/processor.cpp.o"
+  "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/system.cpp" "/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/CMakeFiles/monitor.dir/src/system.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
