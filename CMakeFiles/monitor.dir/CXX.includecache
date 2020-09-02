@@ -22,35 +22,11 @@ numeric
 linux_parser.h
 /home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/linux_parser.h
 
-/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/process.cpp
-iostream
--
-unistd.h
--
-cctype
--
-sstream
--
-string
--
-vector
--
-exception
--
-process.h
-/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/process.h
-linux_parser.h
-/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/src/linux_parser.h
-
 include/linux_parser.h
 fstream
 -
 regex
 -
-string
--
-
-include/process.h
 string
 -
 

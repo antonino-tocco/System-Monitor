@@ -13,7 +13,7 @@ using std::string;
 string Format::ElapsedTime(long seconds) {
   char formatted_date[100];
   tm* elapsed_time;
-  elapsed_time = localtime(&seconds);
+  elapsed_time = gmtime(&seconds);
   strftime(formatted_date, 50, "%H:%M:%S", elapsed_time);
   return formatted_date;
 }
