@@ -132,10 +132,10 @@ long LinuxParser::ActiveJiffies(int pid) {
     CleanString_(line, false);
     std::istringstream linestream(line);
     vector<string> values(std::istream_iterator<string>(linestream), {});
-    utime = stol(values[14]);
-    stime = stol(values[15]);
-    cutime = stol(values[16]);
-    cstime = stol(values[17]);
+    utime = stol(values[13]);
+    stime = stol(values[14]);
+    cutime = stol(values[15]);
+    cstime = stol(values[16]);
   }
   return (utime + stime + cutime + cstime) / sysconf(_SC_CLK_TCK);
 }
@@ -290,8 +290,8 @@ long LinuxParser::UpTime(int pid) {
     CleanString_(line, false);
     std::istringstream linestream(line);
     vector<string> values(std::istream_iterator<string>(linestream), {});
-    long starttime = stol(values[21]) / sysconf(_SC_CLK_TCK);
-    double system_uptime = LinuxParser::UpTime();
+    float starttime = stof(values[21]) / sysconf(_SC_CLK_TCK);
+    long system_uptime = LinuxParser::UpTime();
     return system_uptime - starttime;
   }
   return 0;

@@ -11,30 +11,30 @@
 				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="monitor">
@@ -45,20 +45,12 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 monitor"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 monitor"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="monitor/fast">
@@ -69,20 +61,12 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 monitor/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 monitor/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/antonino/Workspace/nanodegrees/c++/projects/System-Monitor/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
